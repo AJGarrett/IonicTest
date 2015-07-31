@@ -1,0 +1,10 @@
+<ion-view view-title="Heavenly ForestFire">
+  <ion-content>
+   <p>Connect with Student pursuing Jesus just like you!  C'mon, you know you want to!!</p>
+   <ion-list>
+      <ion-item ng-repeat="playlist in pl.playlists" href="#/app/playlists/{{playlist.id}}">
+        {{playlist.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
